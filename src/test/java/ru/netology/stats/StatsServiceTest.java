@@ -91,6 +91,6 @@ class StatsServiceTest {
 
 
     }
-
+    //форматированный вариант
 
 }
