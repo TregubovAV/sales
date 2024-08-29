@@ -35,6 +35,7 @@ class StatsServiceTest {
 
 
     }
+
     @Test
     public void testMaxMonthSales() {
         StatsService service = new StatsService();
@@ -48,6 +49,7 @@ class StatsServiceTest {
 
 
     }
+
     @Test
     public void testMinMonthSales() {
         StatsService service = new StatsService();

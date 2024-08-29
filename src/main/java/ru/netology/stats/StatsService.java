@@ -28,6 +28,7 @@ public class StatsService {
         }
         return maxMonth + 1;
     }
+
     public int minMonthSale(long[] sales) {
 
         int minMonth = 0;
@@ -45,8 +46,8 @@ public class StatsService {
         long averege = averageSale(sales);
         for (long sale : sales) {
             if (sale < averege) {
-            i++;
-        }
+                i++;
+            }
         }
         return i;
     }
